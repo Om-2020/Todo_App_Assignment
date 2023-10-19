@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(44,30,242);
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+}
+
+.container {
+    background-color: rgb(238, 222, 160);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 4vmax;
+}
+.container > h1{
+    text-align: center;
+}
+
+.container > form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container > form > input,textarea,button{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+.container > form> button {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    font-size: larger;
+}
+
+.task {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px;
+}
+.task span {
+    color: rgba(0, 0, 0, 0.673);
+}
+
+.task >div{
+    width: 100%;
+}
+
+.task > button {
+    background-color: black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.task button:hover {
+    background-color: red;
+}
