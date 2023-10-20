@@ -22,6 +22,8 @@ body {
     min-height: 100vh;
     box-sizing: border-box;
     padding: 4vmax;
+    display: flex;
+
 }
 .container > h1{
     text-align: center;
@@ -58,6 +60,7 @@ body {
     border-radius: 5px;
     align-items: center;
     margin: 10px;
+    display: flex;
 }
 .task span {
     color: rgba(0, 0, 0, 0.673);
